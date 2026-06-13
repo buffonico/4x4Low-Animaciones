@@ -347,10 +347,12 @@ main {
     }
 
     .footer {
-        display: flex;
+        display: grid;
         justify-content: space-between;
         padding: 50px;
         text-align: center;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
     }
 
     .contact {
@@ -358,8 +360,7 @@ main {
        
     }
 
-    .social-icons p {
-        
+    .social-icons p a{        
         color: white;
         display: flex;
         text-align: center;
